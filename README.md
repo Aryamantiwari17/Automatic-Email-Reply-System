@@ -25,23 +25,24 @@ This project implements an automatic email reply system for a film equipment ren
 1. Clone the repository:
 git clone https://github.com/Aryamantiwari17/Automatic-Email-Reply-System
 cd film-equipment-rental-email-system
-Copy
+
 2. Create a virtual environment and activate it:
 python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
-Copy
-3. Install the required packages:
+source venv/bin/activate
+# On Windows, use venv\Scripts\activate
+
+4. Install the required packages:
 pip install -r requirements.txt
-Copy
-4. Set up your environment variables:
+
+5. Set up your environment variables:
 Create a `.env` file in the project root and add your Groq API key:
 GROQ_API_KEY=your_api_key_here
-Copy
+
 ## Usage
 
 Run the main script to process sample emails:
 python main.py
-Copy
+
 This will demonstrate the system's ability to classify emails and generate appropriate responses.
 
 ## Project Structure
