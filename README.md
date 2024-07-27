@@ -75,9 +75,11 @@ Contributions to this project are welcome! Please fork the repository and submit
 - The scikit-learn team for their machine learning tools
 - The SQLAlchemy team for their ORM library
 
-##Flowchart
+## Flowchart
+
 ![Flowchart](https://github.com/user-attachments/assets/9c6f4d06-0d7f-493f-b4a1-253d56b53622)
-##Output
+
+## Output
 ![image](https://github.com/user-attachments/assets/e3b1a3d1-2d7d-46bf-8d53-75a1e8feb710)
 ![image](https://github.com/user-attachments/assets/1587fcd9-1c33-496a-94ae-7c2e2bca6998)
 ![image](https://github.com/user-attachments/assets/fff12dd9-d49e-40e7-a087-d4227cf19c68)
