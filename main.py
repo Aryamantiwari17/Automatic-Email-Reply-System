@@ -269,25 +269,6 @@ def handle_general_inquiry(email_content):
     return response.content.strip()
 
 
-'''def rag_pipeline(query):
-    matched_question, matched_answer = find_best_match(query)
-    if matched_answer:
-        prompt = ChatPromptTemplate.from_messages([
-            ("system", "You are a helpful assistant for a film equipment rental service. Use the provided answer to respond to the user's question."),
-            ("human", f"Question: {matched_question}\nAnswer: {matched_answer}\n\nPlease provide a friendly and helpful response to the user based on this information.")
-        ])
-        chain = prompt | chat
-        response = chain.invoke({"matched_question": matched_question, "matched_answer": matched_answer})
-        return response.content.strip()
-    else:
-        return None
-'''
-def rag_pipeline(query):
-    matched_question, matched_answer = find_best_match(query)
-    if matched_answer:
-        return matched_answer
-    else:
-        return None
 
 
 
