@@ -23,7 +23,7 @@ This project implements an automatic email reply system for a film equipment ren
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/film-equipment-rental-email-system.git
+git clone https://github.com/Aryamantiwari17/Automatic-Email-Reply-System
 cd film-equipment-rental-email-system
 Copy
 2. Create a virtual environment and activate it:
