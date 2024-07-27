@@ -1,0 +1,7 @@
+langchain
+openai
+chromadb
+sqlalchemy
+unstructured
+tiktoken
+langchain-groq
