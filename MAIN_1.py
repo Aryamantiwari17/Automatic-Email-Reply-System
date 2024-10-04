@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Get API key from environment variable
-GROQ_API_KEY = os.environ["GROQ_API_KEY"] = "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"
+GROQ_API_KEY = os.environ["GROQ_API_KEY"] = "Enter YOUR API KEY"
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY environment variable is not set")
 
